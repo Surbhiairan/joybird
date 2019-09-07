@@ -1,0 +1,29 @@
+{
+  "name": "joybird-server",
+  "version": "1.0.0",
+  "description": "A joybird GraphQL server",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon ./server.js --exec babel-node -e js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.24.0",
+    "babel-preset-es2015": "^6.24.0",
+    "babel-preset-stage-0": "^6.22.0",
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "apollo-server-express": "^1.4.0",
+    "bcrypt": "^3.0.3",
+    "body-parser": "^1.17.1",
+    "cors": "^2.8.5",
+    "express": "^4.15.2",
+    "graphql": "^0.9.1",
+    "graphql-tools": "^0.10.1",
+    "mysql": "^2.16.0",
+    "path": "^0.12.7"
+  }
+}
